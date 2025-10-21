@@ -1,7 +1,7 @@
 import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 import Footer from "../../pages/FooterPage";
 
-Given("User opens the {string} page", (url) => {
+Given("User opens the {string} page 001", (url) => {
   cy.visit(url);
 });
 
