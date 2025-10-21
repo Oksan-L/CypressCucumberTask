@@ -6,8 +6,8 @@ const allureWriter = require("@shelex/cypress-allure-plugin/writer");
 module.exports = defineConfig({
   e2e: {
     baseUrl: "https://telnyx.com",
-    viewportWidth: 1280,
-    viewportHeight: 720,
+    viewportWidth: 375,
+    viewportHeight: 667,
     defaultCommandTimeout: 10000,
     video: false,
     screenshotOnRunFailure: true,

@@ -4,6 +4,7 @@ class FooterPage {
   }
 
   //001-footerLogoRedirect.js
+  
   getLogoContainer() {
     return cy.get('footer .c-buvHyO.c-buvHyO-icQIAfV-css', { timeout: 10000 }).first();
   }
@@ -35,6 +36,7 @@ class FooterPage {
   }
 
   //002-footerSocialLinks.js
+
   verifySocialLink(platform) {
     const urls = {
       linkedin: /linkedin\.com\/company\/telnyx/i,

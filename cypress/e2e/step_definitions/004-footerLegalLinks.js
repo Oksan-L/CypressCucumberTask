@@ -4,7 +4,6 @@ import Footer from "../../pages/FooterPage";
 let initialUrl = "";
 
 Cypress.on("uncaught:exception", (err) => {
-  // Ігноруємо React-помилки та нестабільні евенти з сайту
   if (
     err.message.includes("Minified React error #") ||
     err.message.includes("startsWith is not a function")
@@ -27,7 +26,7 @@ When("User scrolls to the Legal section in the footer", () => {
 When("User clicks on the {string} link in the Legal section 004", (linkText) => {
   cy.url().then((currentUrl) => {
     Footer.clickLegalLink(linkText);
-    cy.wait(1000); // коротка пауза, щоб React устиг перемалювати
+    cy.wait(1000);
     cy.url({ timeout: 15000 }).should("not.eq", currentUrl);
   });
 });
