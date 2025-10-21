@@ -1,2 +1,6 @@
 "BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
+"0","","0","Verify that all links in the “Legal” section of the footer work correctly","10","0","","0"
+"0","","0","Verify that all links in the “Company” section of the footer work correctly","7","0","","0"
+"0","","0","Verify that all links in the “Compare” section of the footer work correctly","9","0","","0"
+"0","","0","Verify that social media links in the footer redirect to the correct pages","3","0","","0"
 "0","","0","Verify that the footer logo link redirects to the Home Page","3","0","","0"
