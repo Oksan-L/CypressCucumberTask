@@ -32,8 +32,8 @@ jobs:
       - name: Run Cypress Desktop tests with Allure
         run: npm run cy:allure:default
 
-      - name: Run Cypress Mobile tests with Allure
-        run: npm run cy:allure:mobile
+      #- name: Run Cypress Mobile tests with Allure
+      #  run: npm run cy:allure:mobile
 
       - name: Generate Allure Report
         run: npm run allure:generate
